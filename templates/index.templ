@@ -1,0 +1,21 @@
+package templates
+
+import "github.com/vinay1668/go-htmx/templates/common"
+
+templ Index() {
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<title>Golang</title>
+			<link rel="stylesheet" href="/css/output.css"/>
+		</head>
+		<body class="bg-[#0F172A]">
+			<div>
+				@common.Auth()
+			</div>
+			<!-- Your content goes here -->
+		</body>
+	</html>
+}
