@@ -1,0 +1,25 @@
+package common
+
+templ Dashboard() {
+	<div class="min-h-screen bg-[#0F172A] text-white flex flex-col">
+		<nav class="p-4">
+			<div class="container mx-auto flex justify-between items-center">
+				<h1 class="text-2xl font-bold">CelebChat AI</h1>
+				<div>
+					<button hx-get="/login" hx-target="#main-content" class="text-gray-400 hover:text-gray-200 py-2 px-4 mr-2 transition duration-300 focus:text-white">Login</button>
+					<button hx-get="/signup" hx-target="#main-content" class="text-gray-400 hover:text-gray-200 py-2 px-4 transition duration-300 focus:text-white">Sign Up</button>
+				</div>
+			</div>
+		</nav>
+		<div class="flex items-center justify-center flex-grow">
+			<div id="main-content" class="w-full max-w-md">
+				<!-- Content to be replaced will go here -->
+			</div>
+		</div>
+		// <footer class="bg-[#1E293B] p-4">
+		// 	<div class="container mx-auto text-center">
+		// 		<p>&copy; 2024 CelebChat AI. All rights reserved.</p>
+		// 	</div>
+		// </footer>
+	</div>
+}
