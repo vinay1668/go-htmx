@@ -4,7 +4,10 @@ go 1.21
 
 toolchain go1.22.5
 
-require github.com/a-h/templ v0.2.747
+require (
+	github.com/a-h/templ v0.2.747
+	github.com/go-chi/chi v1.5.5
+)
 
 require github.com/stretchr/testify v1.9.0 // indirect
 
