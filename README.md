@@ -11,6 +11,7 @@ This is a comprehensive template project that combines Go, HTMX, Templ, Tailwind
 - **Echo**: A high-performance, minimalist Go web framework.
 
 ## Project Structure
+```
 go-htmx/ 
   ├── controllers 
     ├── api  
@@ -50,6 +51,7 @@ go-htmx/
   ├── main.go 
   ├── Makefile 
   ├── tailwind.config.js
+```
 
 ### Directory Explanations
 
