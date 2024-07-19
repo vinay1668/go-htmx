@@ -1,3 +1,55 @@
+# Go-HTMX Template Project
+
+This is a comprehensive template project that combines Go, HTMX, Templ, Tailwind CSS, and Echo to create modern, efficient web applications. It's designed to provide a solid starting point for developers looking to leverage these technologies in their projects.
+
+## Tech Stack
+
+- **Go**: The backend language, providing robust and efficient server-side logic.
+- **HTMX**: A lightweight JavaScript library that allows for dynamic HTML updates without writing JavaScript.
+- **Templ**: A typed templating language for Go that compiles to native Go code.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **Echo**: A high-performance, minimalist Go web framework.
+
+## Project Structure
+go-htmx/ 
+  ├── controllers 
+    ├── api  
+        ├── auth.go 
+        ├── dashboard.go 
+        └── profile.go
+    ├── web 
+        ├── auth.go  
+        ├── dashboard.go 
+        └── profile.go
+  ├── css/ 
+    ├── input.css  
+    └── output.css 
+  ├── routes
+    ├── api
+        ├── auth.go 
+        ├── dashboard.go    
+        └── profile.go 
+    ├── web
+        ├── auth.go 
+        ├── dashboard.go
+        └── profile.go
+    ├── routes.go 
+  ├── static
+    ├── go-htmx-logo.png 
+    └── templ.svg 
+  ├── templates
+    ├── common 
+      ├── auth.templ 
+      ├── dashboard.templ
+      ├── login.templ
+      ├── signup.templ 
+      └── index.templ 
+  ├── .air.toml 
+  ├── go.mod 
+  ├── go.sum 
+  ├── main.go 
+  ├── Makefile 
+  ├── tailwind.config.js
 
 ### Directory Explanations
 
