@@ -1,3 +1,9 @@
+
+
+![image](https://github.com/user-attachments/assets/da802864-6a8a-43de-9ed0-be80223ddee0)
+
+
+
 # Go-HTMX Template Project
 
 This is a comprehensive template project that combines Go, HTMX, Templ, Tailwind CSS, and Echo to create modern, efficient web applications. It's designed to provide a solid starting point for developers looking to leverage these technologies in their projects.
